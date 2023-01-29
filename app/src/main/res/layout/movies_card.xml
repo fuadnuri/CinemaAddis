@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/movieCardView"
+    android:layout_width="250dp"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:layout_marginHorizontal="20dp"
+    android:backgroundTint="@color/black"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageButton
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="MovieImage"
+        android:minWidth="250dp"
+        android:minHeight="250dp"
+        android:src="@mipmap/im_thor"
+        tools:ignore="ImageContrastCheck" />
+
+</androidx.cardview.widget.CardView>
